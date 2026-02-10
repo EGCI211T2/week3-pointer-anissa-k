@@ -19,7 +19,7 @@ jobs:
       with:
         test-name: Test
         setup-command: make compile run var="1 2 33" 
-        command: 
+        command: ''
         input: ''
         expected-output: " 33  2  1 "
         comparison-method: contains
@@ -31,7 +31,7 @@ jobs:
       with:
         test-name: Test2
         setup-command: make compile run var="7 5 6 8 9 0 3"
-        command: 
+        command: ''
         input: ''
         expected-output: 3  0  9  8  6  5  7
         comparison-method: contains
